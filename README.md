@@ -43,8 +43,8 @@ The main data preparation steps included:
 
 In SQL Server, I created reusable views to make the analysis cleaner and easier to maintain:
 
-vw_completed_sales
-vw_cancelled_orders
+- vw_completed_sales
+- vw_cancelled_orders
 
 These views allowed me to avoid repeating the same filtering logic in every SQL query.
 
