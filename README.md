@@ -48,11 +48,6 @@ In SQL Server, I created reusable views to make the analysis cleaner and easier 
 
 These views allowed me to avoid repeating the same filtering logic in every SQL query.
 
-
-
-
-
-
 # Dashboard Design
 
 The final dashboard was created in Power BI and contains three main pages:
@@ -63,8 +58,6 @@ This page gives a high-level overview of revenue, orders, customers, quantity so
 This page focuses on product-level and customer-level performance. It compares product revenue and quantity sold, shows customer revenue contribution, and highlights the highest-value customers.
 ## Cancellation Analysis
 This page analyzes cancelled orders, cancellation rate, cancelled products, and monthly cancellation patterns.
-
-The dashboard background design and visual layout elements were created in PowerPoint. The color palette was selected using Coolors: https://coolors.co/?home
 
 # Key Insights
 - The business generated £8.89M in total revenue from 18,532 completed orders.
