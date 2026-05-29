@@ -1,33 +1,45 @@
-E-commerce Sales and Customer Behavior Analysis
-Project Summary
+# E-commerce Sales and Customer Behavior Analysis
+
+## Project Summary
 
 This project presents an end-to-end e-commerce data analysis workflow based on online retail transaction data. The goal of the analysis was to identify sales trends, top-performing products, key customer groups, market performance, and cancellation patterns.
 
 The project was completed using Excel, Power Query, Power Pivot, DAX, SQL Server, SSMS, and Power BI. The raw dataset was first cleaned and transformed in Power Query, then analyzed with Power Pivot and DAX measures. The cleaned dataset was also imported into SQL Server, where reusable SQL views were created for completed sales and cancelled orders. Finally, an interactive Power BI dashboard was built to visualize the key findings.
 
-Tools Used
-Excel
-Power Query
-Power Pivot
-DAX
-SQL Server
-SQL Server Management Studio
-Power BI
-PowerPoint
-Coolors color palette generator
-Data Preparation
+---
+
+## Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Excel | Initial data exploration and workbook setup |
+| Power Query | Data cleaning and transformation |
+| Power Pivot | Data modelling |
+| DAX | KPI and measure creation |
+| SQL Server | Database storage and analysis |
+| SQL Server Management Studio | Data import and SQL query execution |
+| Power BI | Dashboard creation and data visualization |
+| PowerPoint | Dashboard background design and layout elements |
+| Coolors | Color palette selection |
+
+The dashboard background design and visual layout elements were created in PowerPoint.  
+The color palette was selected using [Coolors](https://coolors.co/?home).
+
+---
+
+## Data Preparation
 
 The original dataset contained online retail transactions, including invoice numbers, product descriptions, quantities, invoice dates, unit prices, customer IDs, and countries.
 
 The main data preparation steps included:
 
-setting correct data types,
-removing rows without CustomerID,
-creating an IsCancelled column,
-calculating revenue with Quantity × UnitPrice,
-creating date-related fields such as year, month, quarter, and hour,
-preparing separate logic for completed sales and cancelled orders,
-importing the cleaned data into SQL Server.
+- setting correct data types,
+- removing rows without `CustomerID`,
+- creating an `IsCancelled` column,
+- calculating revenue with `Quantity × UnitPrice`,
+- creating date-related fields such as year, month, quarter, and hour,
+- preparing separate logic for completed sales and cancelled orders,
+- importing the cleaned data into SQL Server.
 
 In SQL Server, I created reusable views to make the analysis cleaner and easier to maintain:
 
