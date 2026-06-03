@@ -54,10 +54,13 @@ The final dashboard was created in Power BI and contains three main pages:
 
 ## Executive Summary
 This page gives a high-level overview of revenue, orders, customers, quantity sold, average order value, monthly trends, top countries, and top products.
+<img width="1238" height="701" alt="executive_summary" src="https://github.com/user-attachments/assets/4d585af6-0412-4d73-8bdc-7ad65fe12272" />
 ## Product & Customer Performance
 This page focuses on product-level and customer-level performance. It compares product revenue and quantity sold, shows customer revenue contribution, and highlights the highest-value customers.
+<img width="1237" height="702" alt="product_customer_performance" src="https://github.com/user-attachments/assets/9af51910-d120-4f47-b7bd-ab1a5cb82c5c" />
 ## Cancellation Analysis
 This page analyzes cancelled orders, cancellation rate, cancelled products, and monthly cancellation patterns.
+<img width="1238" height="705" alt="cancellation_analysis" src="https://github.com/user-attachments/assets/20ad87e5-138b-40ed-9813-9fceb917468d" />
 
 # Key Insights
 - The business generated £8.89M in total revenue from 18,532 completed orders.
