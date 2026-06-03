@@ -5,8 +5,8 @@
 This project presents an end-to-end e-commerce data analysis workflow based on online retail transaction data. The goal of the analysis was to identify sales trends, top-performing products, key customer groups, market performance, and cancellation patterns.
 
 The project was completed using Excel, Power Query, Power Pivot, DAX, SQL Server, SSMS, and Power BI. The raw dataset was first cleaned and transformed in Power Query, then analyzed with Power Pivot and DAX measures. The cleaned dataset was also imported into SQL Server, where reusable SQL views were created for completed sales and cancelled orders. Finally, an interactive Power BI dashboard was built to visualize the key findings.
-Original dataset: Online Retail.xlsx
-Cleaned and prepared dataset: ecommerce_analysis_model.xlsx
+- Original dataset: Online Retail.xlsx
+- Cleaned and prepared dataset: ecommerce_analysis_model.xlsx
 
 ---
 
